@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cifrados</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #4a91e223, #5d13fe86);
+            font-family: Arial, sans-serif;
+            color: #000000;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.363);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .container img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 40px;
+            margin: 15px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+        .button:active {
+            transform: scale(1.05);
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Bienvenido a la Página de Cifrados</div>
+        <!-- Botones -->
+        <a href="https://cifrado-django.onrender.com/" class="button">Cifrado con Django</a>
+        <a href="pagina2.html" class="button">Cifrado con Express</a>
+    </div>
+    <!-- Pie de página -->
+    <footer>© 2024 Proyecto de Cifrado - Todos los derechos reservados.</footer>
+</body>
+</html>
+
